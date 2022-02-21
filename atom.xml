@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://verchieltj.github.io/</id>
     <title>Ver的博客</title>
-    <updated>2022-02-21T12:51:15.075Z</updated>
+    <updated>2022-02-21T14:48:10.874Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://verchieltj.github.io/"/>
     <link rel="self" href="https://verchieltj.github.io/atom.xml"/>
@@ -10,4 +10,23 @@
     <logo>https://verchieltj.github.io/images/avatar.png</logo>
     <icon>https://verchieltj.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, Ver的博客</rights>
+    <entry>
+        <title type="html"><![CDATA[Unity常用C#特性（持续更新）]]></title>
+        <id>https://verchieltj.github.io/post/unity-chang-yong-cte-xing/</id>
+        <link href="https://verchieltj.github.io/post/unity-chang-yong-cte-xing/">
+        </link>
+        <updated>2022-02-21T13:43:54.000Z</updated>
+        <content type="html"><![CDATA[<p>[SerializeField]  强制序列化字段，在Inspector面板中显示私有（private）或者“被保护”（protected）的变量。<br>
+[System.Serializable] 在Inspector面板中可显示并编辑自定义类（class）与结构体（struct）中的变量。<br>
+[HideInInspector]  在Inspector面板隐藏公开（public）的变量。<br>
+[Header（&quot;说明内容&quot;）]  在Inspector面板建立一个分组标签。<br>
+[Tooltip(&quot;说明内容&quot;)]  在Inspector面板的某个变量增加悬停注释。<br>
+[Space()] 在Inspector面板让两个字段之间出现间隔。<br>
+[Range( 最小值 , 最大值 )] 在Inspector面板中使某变量变为滑条范围。<br>
+[Multiline(行数)] 在Inspector面板中字符串输入框变为多行形式，（）内不填默认3行。<br>
+[TextArea( 行数 , Max行数 )] 在Inspector面板中字符串输入框变为多行形式，超出“Max行数”出现滚动条。<br>
+[ContextMenuItem( &quot;按钮名&quot; , &quot;方法名&quot; )] 为Inspector面板中的变量增加一个按钮并关联方法。<br>
+[ContextMenu] 在Inspector面板菜单中增加方法按钮，用于测试。</p>
+]]></content>
+    </entry>
 </feed>
